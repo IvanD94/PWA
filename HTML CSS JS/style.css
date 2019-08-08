@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.main {
+	min-width: 450px;
+	font-family: 'Abel', sans-serif;
+}
+
+.header {
+	justify-content: left;
+	height: 210px;
+	z-index: -1;
+	margin-bottom: 20px;
+}
+
+.personal-information {
+	color: white;
+	background-color: rgb(0, 137, 123);
+	padding-top: 20px;
+	padding-left: 160px;
+	padding-right: 20px;
+	display: flex;
+	flex-direction: column;
+	min-width: 450px;
+	min-height: 150px;
+}
+
+.other-information {
+	display: flex;
+	justify-content: left;
+	padding-left: 160px;
+	min-width: 450px;
+	align-items: center;
+	margin-right: 20px;
+}
+
+.contact-information {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+.information {
+	margin: 20px;
+	min-width: 450px;
+}
+
+.main-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container-two {
+	width: 49%;
+}
+
+.container-three {
+	width: 30%;
+}
+
+.info-tittle {
+	color: rgb(0, 137, 123);
+}
+
+.job-tittle {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.job-date {
+	font-size: 80%;
+	color: gray;
+}
+
+.picture {
+	width: auto;
+	height: auto;
+	margin: 20px;
+	z-index: 1;
+	position: absolute;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+}
+
+.card {
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 2%;
+}
+
+.card-small {
+	width: 26%;
+}
+
+.card-medium {
+	width: 61%;
+}
+
+.details {
+	display: none;
+}
+
+h1 {
+	line-height: 0%;
+}
+
+.small {
+	font-size: 110%;
+	vertical-align: middle;
+}
+
+.medium {
+	vertical-align: middle;
+}
+
+.big-green {
+	color: rgb(0, 137, 123);
+	margin-right: 5px;
+	font-size: 220%;
+	vertical-align: middle;
+}

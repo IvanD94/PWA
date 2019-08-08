@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CV</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="main">
+		<div class="picture">
+			<img src="1_0.png">
+		</div>
+		<div class="header">
+			<div class="personal-information">
+				<div>
+					<h1> Iván Darío Chacón Uribe </h1>
+					<p> Back-end developer, Performance Analyst </p>
+				</div>
+				<div class="contact-information">
+					<p><i class="material-icons small"> location_on </i> Cali, Colombia </p>
+					<p><i class="material-icons small"> phone </i> +57 (555) 5555555 </p>
+					<p><i class="material-icons small"> email </i> hello.world@back.com </p>
+				</div>
+			</div>
+			<div class="other-information">
+				<i class="material-icons big-green"> person_outline </i>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed erat et quam commodo eleifend in sed
+					tortor.</p>
+			</div>
+		</div>
+		<div class="information">
+			<div class="main-container">
+				<div class="container-two">
+					<h3 class="info-tittle"><i class="material-icons medium"> school </i> EDUCATION </h3>
+					<p><b> Columbia University, New York (NY), USA </b><br> Ut sollicitudin, lacus in malesuada pretium,
+						massa odio semper sem. - 2010</p>
+					<p><b> Columbia University, New York (NY), USA </b><br> Phasellus pharetra sapien vulputate mauris
+						blandit, eget luctus magna efficitur. - 2017</p>
+					<h3 class="info-tittle"><i class="material-icons medium"> edit </i> COURSES & CERTIFICATES </h3>
+					<p><b> Algorithm analysis; </b> Petiam sodales tellus urna: 2018.
+						<br><b> Cloud Computing; </b> Sed elementum mi urna: 2015, Cras mattis neque turpis: 2016.
+						<br><b> Back-end; </b> Phasellus eget pharetra massa: 2013, Pellentesque maximus interdum lacus:
+						2017. </p>
+					<h3 class="info-tittle"><i class="material-icons medium"> favorite_border </i> VOLUNTEER WORKS </h3>
+					<p><b> Aenean dui mi </b><br> egestas molestie neque auctor, efficitur facilisis tortor. </p>
+					<p><b> Aenean ut accumsan justo </b><br> Vestibulum aliquet elit at elit mattis feugiat. </p>
+				</div>
+				<div class="container-two">
+					<h3 class="info-tittle"><i class="material-icons medium"> work </i> PROFESSIONAL EXPERIENCE </h3>
+					<p><span class="job-tittle"> Efficitur facilisis tortor </span><br><b> Aliquam maximus enim lorem
+						</b><br> Donec libero elit, tristique in gravida ut, euismod ut velit. Cras maximus enim vel
+						purus tincidunt, id rhoncus ipsum hendrerit. <br><span class="job-date"> November 2018 - present
+						</span></p>
+					<p><span class="job-tittle"> A laoreet augue molestie </span><br><b> Praesent mauris risus
+						</b><br> Cras volutpat nisi sed eros tempor, iaculis aliquam enim faucibus. Duis elementum, ex
+						tincidunt aliquam mattis, eros nulla rhoncus tortor. <br><span class="job-date"> June 2016 -
+							October 2018
+						</span></p>
+					<p><span class="job-tittle"> Donec orci nisi </span><br><b> Nullam bibendum augue id dictum finibus
+						</b><br> Praesent aliquam eget augue vel lobortis. Sed et enim id tortor fermentum suscipit.
+						Maecenas consectetur nisi et urna dictum tristique. <br><span class="job-date"> January 2014 -
+							December 2015
+							<br></span></p>
+				</div>
+			</div>
+			<div class="main-container">
+				<div class="container-three">
+					<h3 class="info-tittle"><i class="material-icons medium"> translate </i> LANGUAGES </h3>
+					<p><b> English: </b> Native
+						<br><b> Spanish: </b> Advance
+						<br><b> German: </b> Basic
+					</p>
+				</div>
+				<div class="container-three">
+					<h3 class="info-tittle"><i class="material-icons medium"> public </i> ON WEB </h3>
+					<p> linkedin.com/in/dummy
+						<br> behance.net/dummy
+						<br> github.com/dummy </p>
+				</div>
+				<div class="container-three">
+					<h3 class="info-tittle"><i class="material-icons medium"> star </i> INFORMATIONS </h3>
+					<p> Phasellus eget pharetra massa.
+						<br>Cras mattis neque turpis.
+						<br>Vivamus quis ipsum sed libero suscipit vulputate quis ut quam. </p>
+				</div>
+			</div>
+			<div>
+				<h3 class="info-tittle"><i class="material-icons medium"> computer </i> TECHNICAL SKILLS </h3>
+				<div class="main-container">
+					<div class="card card-small" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"
+						onclick="show('front')">
+						<p><b> Front-end </b><br> HTML, JS, Ajax </p>
+					</div>
+					<div id="backCard" class="card card-small" onmouseover="mouseOver(this)" onmouseout="mouseOut(this)"
+						onclick="show('back')">
+						<p><b> Back-end </b><br> Java, PHP, .NET </p>
+					</div>
+					<div class="card card-small">
+						<p><b> Frameworks </b><br> Backbone, Vue, React </p>
+					</div>
+				</div>
+				<div id="frontInfo" class="card details">
+					<p> HTML: <progress max="100" value="80"> 80% </progress></p>
+					<p> JS: <progress max="100" value="70"> 70% </progress></p>
+					<p> Ajax: <progress max="100" value="55"> 55% </progress></p>
+				</div>
+			</div>
+			<div id="backInfo" class="card details">
+				<p> Java: <progress max="100" value="80"> 90% </progress></p>
+				<p> PHP: <progress max="100" value="70"> 70% </progress></p>
+				<p> .NET: <progress max="100" value="60"> 40% </progress></p>
+			</div>
+			<div class="main-container">
+				<div class="card card-small">
+					<p><b> Wireframes and Prototypes </b><br> Miro, Adobe Xd, UXPin, Axure RP </p>
+				</div>
+				<div class="card card-small">
+					<p><b> Plataforms </b><br> Joomla, Drupal, Pulse CMS </p>
+				</div>
+				<div class="card card-small">
+					<p><b> Vector (icons) </b><br> Illustrator, BocySVG, Vectr </p>
+				</div>
+			</div>
+			<div class="main-container">
+				<div class="card card-small">
+					<p><b> Automation tools </b><br> Selenium, Katalon Studio, UFT </p>
+				</div>
+				<div class="card card-medium">
+					<p><b> Others </b><br> Git, Agile Methodologies, Vagrant </p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
